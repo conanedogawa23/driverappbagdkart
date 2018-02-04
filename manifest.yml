@@ -1,0 +1,11 @@
+---
+applications:
+- name: vendorApp
+  domain: mybluemix.net
+  instances: 1
+  memory: 150M
+  env:
+    NODE_ENV: cloud-foundry
+  services:
+    - bagdkartbackendandroid
+    - Twilio-bagdkart
